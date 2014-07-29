@@ -1,0 +1,151 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	background: white;
+	font-family: Helvetica, Arial;
+	font-size: 14px;}
+a {}
+a img {border: none;}
+
+.header {
+	position: relative;
+	background: url(../gfx/bg-top.png) top repeat-x;
+	padding-top: 7px;
+	margin-bottom: 25px;}
+
+.header ul.menu {
+	position: relative;
+	float: right;
+	padding-top: 32px;}
+.header ul.menu li {
+	position: relative;
+	display: block;
+	float: left;}
+.header ul.menu li a {
+	font-size: 12px;
+	font-style: italic;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	float: left;
+	padding: 8px;
+	padding-right: 12px;
+	text-shadow: #4f8622 1px 1px 0px;
+	background: url(../gfx/menu-tab-r.gif) bottom right no-repeat;}
+.header ul.menu li a:hover {color: #cf9;}
+
+.header ul.menu li.current {
+	background: url(../gfx/menu-tab-l.gif) top left no-repeat;
+	margin-right: 5px;}
+.header ul.menu li.current a {
+	position: relative;
+	margin-right: -5px;
+	background: url(../gfx/menu-tab-r.gif) top right no-repeat;
+	text-shadow: none;
+	padding-right: 8px;
+	padding-bottom: 7px;
+	padding-top: 10px;
+	color: #4f8622;}
+
+.pageBody {
+	position: relative;
+	margin-bottom: 30px;}
+.pageBody h2 {
+	text-transform: uppercase;
+	font-style: italic;
+	font-size: 24px;
+	color: #693;
+	border-bottom: 3px solid #693;
+	letter-spacing: -1px;}
+.pageBody h3 {
+	text-transform: uppercase;
+	font-style: italic;
+	font-size: 18px;
+	color: #693;
+	border-bottom: 3px solid #693;
+	letter-spacing: -1px;}
+
+.pageBody div.list-1 {
+	position: relative;
+	margin-bottom: 30px;}
+
+.pageBody div.threeCol {
+	position: relative;
+	width: 720px;
+	margin-right: -30px;}
+.pageBody div.threeCol div.block {
+	position: relative;
+	width: 210px;
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 30px;}
+
+.mainSearch {
+	background: url(../gfx/main-search-bg.jpg) top left no-repeat #f0f0f0;
+    border-radius: 5px;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-bottom: 30px}
+
+.breadCrumbTrail {
+	position: relative;
+	clear: both;
+	background: #ebebeb;
+	margin-bottom: 30px;}
+
+.theComplain div.userComplain {
+	background: #f0f0f0;
+	border: 1px solid #d8d8d8;
+	padding: 20px;
+	margin-bottom: 20px;}
+.theComplain div.companyAnswer {
+	background: #353535;
+	padding: 20px;
+	margin-bottom: 20px;}
+
+.comments div.comm {
+	background: #f0f0f0;
+	border: 1px solid #d8d8d8;
+	padding: 20px;
+	margin-bottom: 20px;}
+.comments div.commAnswer {padding-left: 50px;}
+
+.comments div.leaveYourComm {background: #e3eab3;}
+
+.signUpForm label {
+	display: block;}
+
+#sidebar {}
+#sidebar div.sidebarPadding {
+	background: #f0f0f0;
+    border-radius: 5px;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    /*-khtml-border-radius: 5px;*/}
+#sidebar div.sidebarPadding div.block {
+	background: url(../gfx/sidebar-block-bg.png) top left no-repeat;
+	padding: 10px;}
+
+.footer {
+	position: relative;
+	clear: both;}
+.footer div.quickLinks {
+	padding: 30px 0px;
+	background: #8fc764;}
+.footer div.signature {
+	background: #65874a;
+	text-align: center;
+	color: #b1e18c;
+	font-size: 11px;
+	padding: 5px;
+	vertical-align: middle;}
+
+/*colors*/
+.blue {color: #09f !important; border-color: #09f !important;}
+.green {color: #693 !important; border-color: #693 !important;}
+.lightGreen {color: #9c6 !important; border-color: #9c6 !important;}
+.purple {color: #96c !important; border-color: #96c !important;}
+.red {color: #f33 !important; border-color: #f33 !important;}
+
+.alignCenter {text-align: center;}

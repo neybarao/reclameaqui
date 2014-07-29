@@ -1,0 +1,41 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	background: url(../gfx/bg-top-lite.png) center top repeat-x #fff;
+	font-family: Helvetica, Arial;
+	font-size: 12px;}
+a {text-decoration: none;}
+a img {border: none;}
+
+.container {
+	position: relative;
+	margin: auto;
+	width: 770px;}
+
+.spacer {
+	position: relative;
+	height: 40px;
+	clear: both;}
+
+
+.header {
+	position: relative;
+	text-align: right;
+	font-size: 11px;
+	color: #848484;
+	vertical-align: middle;}
+.header a {
+	text-decoration: none;
+	color: #848484;
+	vertical-align: middle;
+	padding: 0px 5px;}
+.header a span {vertical-align: middle;}
+
+.header a span.arrow {
+	position: relative;
+	width: 11px;
+	height: 11px;
+	overflow: hidden;
+	background: url(../gfx/arrow-up-down.gif) center top no-repeat;}
+.header a:hover span.arrow {background-position: center bottom;}
