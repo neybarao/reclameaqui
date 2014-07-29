@@ -1,0 +1,6 @@
+img {behavior: url(css/pngfix.htc);}
+
+.sidebar {
+    behavior: url(css/border-radius.htc);
+    border-radius: 20px;
+}
